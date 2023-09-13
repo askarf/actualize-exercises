@@ -11,13 +11,13 @@ p word                # 10
 
 # 1: word is "hi"
 # 2: word is "hi", index is 0
-# 3: (0 is less than 2)
+# 3: (0 is less than 2, continue)
 # 4: word is "hihi", index is 0
 # 5: word is "hihi", index is 1
-# 6: (1 is less than 2)
+# 6: (1 is less than 2, continue)
 # 7: word is "hihihihi", index is 1
 # 8: word is "hihihihi", index is 2
-# 9: (2 is not less than 2), end
+# 9: (2 is not less than 2, end)
 # 10: print "hihihihi"
 
 
@@ -32,7 +32,7 @@ end
 puts "Done!"          # 3
 
 # 1: index is 0
-# 2: (0 is not greater than 2), end
+# 2: (0 is not greater than 2, end)
 # 3: print "Done!"
 
 
