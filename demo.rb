@@ -1,3 +1,2 @@
-name = "Maria"
-puts name.class
-
+word = :hello
+puts word
