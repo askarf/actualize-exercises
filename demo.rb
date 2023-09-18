@@ -1,3 +1,3 @@
-name = "ayala"
-sir = "karfunkel"
-puts name.upcase + sir.upcase
+name = "Maria"
+puts name.class
+
