@@ -4,20 +4,20 @@
 # Then run the method three times to see your message display three times.
 
 def display_ayala_karf
-    puts"                      _         _  __           __  "
-    puts"     /\              | |       | |/ /          / _| "
-    puts"    /  \  _   _  __ _| | __ _  | ' / __ _ _ __| |_  "
-    puts"   / /\ \| | | |/ _` | |/ _` | |  < / _` | '__|  _| "
-    puts"  / ____ \ |_| | (_| | | (_| | | . \ (_| | |  | |   "
-    puts" /_/    \_\__, |\__,_|_|\__,_| |_|\_\__,_|_|  |_|   "
-    puts"           __/ |                                    "
-    puts"          |___/                                     "
-    puts""
+"                        _         _  __           __  
+        /\              | |       | |/ /          / _| 
+       /  \  _   _  __ _| | __ _  | ' / __ _ _ __| |_  
+      / /\ \| | | |/ _` | |/ _` | |  < / _` | '__|  _| 
+     / ____ \ |_| | (_| | | (_| | | . \ (_| | |  | |   
+    /_/    \_\__, |\__,_|_|\__,_| |_|\_\__,_|_|  |_|   
+              __/ |                                    
+             |___/                                     
+   "
 end
 
-display_ayala_karf
-display_ayala_karf
-display_ayala_karf
+puts display_ayala_karf
+puts display_ayala_karf
+puts display_ayala_karf
 
 
 
