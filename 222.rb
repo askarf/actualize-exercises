@@ -19,6 +19,6 @@ if x < 5
     puts 0
 elsif x < 10
     puts 1
-else x < 100
+else 
     puts 2
 end
