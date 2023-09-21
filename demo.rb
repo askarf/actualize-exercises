@@ -1,5 +1,8 @@
-person = {"name" => "ayala", "email" => "ayalakarf@gmail.com"}
+person = {
+    "name" => "ayala",
+    "email" => "ayalakarf@gmail.com",
+    "hobbies" => ["cuttins", "sewing", "eating"]
+}
 pp person
-
-person = { :name => "sara", :email => "ayalakarf@gmail.com"}
-pp person
+pp person["name"]
+pp person["hobbies"][1]

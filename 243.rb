@@ -13,5 +13,5 @@ puts product[:price] # the output is 49.99
 # but it has mistakes that cause the code to crash.
 # Find and fix the errors with the code.
 fruits = { coconut: 1, apple: 2, banana: 3 }
-fruits [:pears] = 3
+fruits[:pears] = 3
 pp fruits
