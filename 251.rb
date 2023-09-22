@@ -12,12 +12,11 @@ class Song
     end
 end
 
-song1 = Song.new("luv you", "ayala", 34.54)
-pp song1 
-
+song = Song.new("luv you", "ayala", 34.54)
+pp song
 
 # Were you able to easily solve the problem from memory? yes
-# If so, describe the next skill you will start to practice tomorrow. pulling out diffrent things from custom classes
+# If so, describe the next skill you will start to practice tomorrow. perfecting writing class's
 # If not, describe the part you got stuck on that requires more practice.
 
 
