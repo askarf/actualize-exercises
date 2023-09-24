@@ -33,23 +33,6 @@ person = Person.new("Bob", "Jones", "pink", ["basketball", "chess", "phone tag"]
 pp person.email 
 pp person.info 
 
-# QUESTION 2 
-# The code below crashes when it is run. 
-# First explain what the error message means,  
-# then fix the code by modifying only the line marked # FIX THIS LINE. 
-# (This one is quite tricky!) 
-class Product 
-  attr_reader :name, :price, :description 
- 
-  def initialize(options_hash) 
-    @name = options_hash["name"] 
-    @price = options_hash["price"] 
-    @description = options_hash["description"] 
-  end 
-end 
- 
-product = Product.new(("name") => "Table", ("price") => 500, ("description") => "Solid oak") # FIX THIS LINE 
-puts "The product's name is #{product.name}." 
 
 
   # QUESTION 2
