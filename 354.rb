@@ -76,18 +76,16 @@
 
 # create a loop that makes the whole loop go the amount of times.length
 
-numbers = [9, 8, 7, 6]
+numbers = [4534, 45, 1718, 345, 23, 5656555, -12, 33]
 index = 0
 second_index = 0
+
+
+numbers.length.times do
 index = 0
-num1 = numbers[index]
-num2 = numbers[index + 1]
-
-while second_index < numbers.length
-
     while index < (numbers.length - 1)
-    
-        if num1 > num2                       # 9 > 2 yes       | 9 > 4 yes      | 9 > 6        
+
+        if numbers[index] > numbers[index + 1]                       # 9 > 2 yes       | 9 > 4 yes      | 9 > 6        
             temp = numbers[index]               # temp is 9       | temp is 9      | temp is 9      
             numbers[index] = numbers[index + 1] # numbers[0] = 2  | numbers[1] = 4 | numbers[2] = 6
             numbers[index + 1] = temp           # numbers[1] = 9  | numbers[2] = 9 | numbers[3] = 9
@@ -96,10 +94,5 @@ while second_index < numbers.length
     index = index + 1
     end
 
-second_index = second_index + 1
 end
 pp numbers
-
-
-
-

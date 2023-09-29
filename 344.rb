@@ -196,8 +196,8 @@
 
 
 # make a new array and instead of printing push all outputs into array and then do array.reverse and joined
+integer = 234.to_s
 
-integer = 3672.to_s
 values = []                                    
 
 split = integer.split(//).reverse                     
