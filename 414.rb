@@ -8,5 +8,5 @@ file = File.new("example.txt", "w")
 
 file.write "This is an example!"
 
-
 file.close
+
