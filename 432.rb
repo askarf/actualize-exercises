@@ -11,5 +11,4 @@ numbers.each do |number|
 end
 
 mean_adverage = mean_adverage / numbers.length
-
 pp mean_adverage
