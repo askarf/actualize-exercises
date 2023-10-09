@@ -6,25 +6,15 @@
 # print "You cannot divide by zero" to the terminal.
 
 
-# numbers = [234, 0, 777, 1, 3, 6, 4]
-# new_numbers = []
-# numbers.each do |number|
-#      0 / number
-# rescue ZeroDivisionError
-#     pp "You cannot divide by zero"
-#     retry
-# end
-
-
-pp "please enter a number:"
-input = gets.chomp.to_i
-
-begin
-    pp input / 0
+numbers = [234, 0, 777, 1, 3, 6, 4]
+new_numbers = []
+numbers.each do |number|
+     0 / number
 rescue ZeroDivisionError
     pp "You cannot divide by zero"
     retry
 end
+
 
 
 
