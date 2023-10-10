@@ -1,1 +1,0 @@
-pp people[2]["hobbies"][2]
