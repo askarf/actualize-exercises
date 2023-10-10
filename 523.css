@@ -1,0 +1,12 @@
+h1 {
+    background-color: maroon;
+    color: white;
+    font-size: 55px;
+    border-radius: 30px;
+    margin: 5px;
+    font-weight: 900;
+    font-family: fantasy;
+    text-align: center;
+    padding: 10px;
+    font-style: italic;
+}
