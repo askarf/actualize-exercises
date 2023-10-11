@@ -14,7 +14,4 @@ else
     pp "SMALL"
 end
 
-pp check_power_level
-
-
 
