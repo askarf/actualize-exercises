@@ -16,9 +16,9 @@ console.log(numbers[3]);
 var age = 20
 if (age < 10) {
 console.log(-1);
-} if (age > 10) {
+} else if (age > 10) {
 console.log(1);
-} if (age == 0) {
+} else if (age == 0) {
     console.log(0);
 }
 
