@@ -1,12 +1,43 @@
-h1, h2, h3 {
-    color: white;
-    background-color: black;
+body {
+    margin: 0 auto;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(86, 107, 120);
 }
 
-h2 + p {
+main {
+    max-width: 50em;
+    line-height: 1.5;
+    padding: 4em 1em; 
+}
+h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+    color: rgb(46, 54, 60);
+}
+
+a {
     color: red;
 }
 
-p {
-    color: green;
+header {
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.rawpixel.com%2Fsearch%2Fgalaxy&psig=AOvVaw3z5vqjfJQhTH4biMH8cXmI&ust=1697136046214000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCKi-4MrS7oEDFQAAAAAdAAAAABAn");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    line-height: 1.2;
+    padding: 10vw 2em;
+    
+}
+
+header h1 {
+    color: white;
+    font-size: 2.5em;
+    font-weight: 300;
+}
+
+footer {
+    text-align: center;
+    background-color: grey;
+    padding: 3em;
 }
